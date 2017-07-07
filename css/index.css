@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    height: 400px;
+    background: url("../img/login_bg.JPG") no-repeat;
+    background-size: 800px 400px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.login_header {
+    margin: 20px auto;
+    width: 800px;
+    height: 60px;
+    background-color: #fff;
+}
+.login_header>img{
+    margin-left: 145px;
+    width: 650px;
+    height: 60px;
+}
+
+.login_body {
+    margin: 70px auto;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+.user_name{
+    margin-bottom: 20px;
+}
+.user_name>span{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "楷体";
+}
+.user_name>input{
+    width: 200px;
+    height: 30px;
+}
+.user_pass{
+    margin-bottom: 50px;
+}
+.user_pass>span{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "楷体";
+}
+.user_pass>input{
+    width: 200px;
+    height: 30px;
+}
+.login_btn>button{
+    width: 60px;
+    height: 30px;
+    margin-right:50px;
+}

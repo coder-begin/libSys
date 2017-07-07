@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container_body {
+    width: 800px;
+    height: 477px;
+    background-color: #BDC891;
+
+}
+.container_body_left{
+    float: left;
+    width: 140px;
+    height: 477px;
+    border-right: 6px solid blue;
+    padding: 0 3px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container_body_left>button>p{
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: deepskyblue;
+
+}
+.container_body_left>button>p:hover{
+    background-color: red;
+}
+.container_body_left>div{
+    width: 140px;
+    height: 100%;
+    padding:10px 30px;
+}
+.info_btn{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.info_btn>div{
+    width: 60px;
+    height: 60px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+.info_btn img{
+    width: 40px;
+    height: 40px;
+}
+.info_btn p{
+    margin-top: -3px;
+    font-size: 8px;
+}
+ button{
+    border: none;
+    background: none;
+    outline-style: none;
+}
+button:hover{
+    cursor:pointer;
+    background-color:skyblue;
+}
+.container_body_right{
+    float: right;
+    width: 650px;
+    height: 477px;
+    text-align: center;
+}
+.container_body_right>p{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "楷书";
+}
+.container_body_right_search>input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+.container_body_right_search>button{
+    height: 35px;
+    width: 60px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+.show_books{
+    width: 660px;
+    height: 390px;
+    overflow-y: scroll;
+}
+.show_books table{
+
+    border: 1px solid #000000;
+}
+.book_header th{
+    width:158px;
+    border: 1px solid #000000;
+}
+.table_book_header{
+    border:1px solid #000;
+    margin-top: 10px;
+}
+.book_body td{
+    width:158px;
+    border:1px solid #000;
+
+}
+.firstPage{
+}
+.user_manage{
+    display: none;
+    width: 650px;
+    height: 467px;
+    background-color: gray;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.user_info{
+    width: 630px;
+    height: 90px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+.avatar{
+    width: 75px;
+    height: 75px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 8px 0 0 19px;
+    float: left;
+}
+.avatar>img{
+    margin-top: 7px;
+}
+.user_info>table{
+    margin-top: 5px;
+    margin-left: 26px;
+    float: left;
+}
+.user_info td{
+    border: 1px solid #000;
+    width: 150px;
+    height: 20px;
+}
+.take_bring_info{
+    margin-left: 9px;
+    width: 630px;
+    height: 332px;
+    border: 2px solid #000000;
+    overflow-y: scroll;
+}
+.take_bring_info td{
+    font-weight: 700;
+    width: 124px;
+    border: 1px solid #000;
+}
+.take_bring_info_header{
+    margin-left: 9px;
+}
+.take_bring_info_header th{
+    width: 119px;
+    border: 2px solid #000;
+}
+.borrowing_ranking{
+    display: none;
+}
+.borrowing_ranking td{
+    border: 1px solid #000;
+    width: 124px;
+}
+.borrowing_ranking_header{
+    border: 1px  solid #000;
+}
+.borrowing_ranking_header td{
+    font-weight: 800;
+}
+.borrowing_ranking_body{
+    margin-left: 1px;
+    width: 650px;
+    height: 423px;
+    overflow-y: scroll;
+}
+.bring_manage{
+    display: none;
+    margin-top: 70px;
+}
+.bring_manage div{
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+.book_id,.bring_date,.book_deadline{
+    font-size: 20px;
+    font-family: "楷书";
+    font-weight: 600;
+}
+.book_id>input{
+    vertical-align:middle;
+    width: 400px;
+    height: 30px;
+}
+.bring_date>p{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+}
+.book_deadline>p{
+   display: inline-block;
+    width: 400px;
+    height: 30px;
+}
+.bring_manage button{
+    width: 100px;
+    height: 45px;
+    background-color: skyblue;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+/*take_back_manage*/
+
+
+.take_back_manage{
+    display: none;
+    margin-top: 70px;
+}
+.take_back_manage div{
+    width: 600px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+.take_back_manage button{
+    width: 100px;
+    height: 45px;
+    background-color: skyblue;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+}

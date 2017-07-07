@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .showMessage {
+            display: none;
+            background-color: rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            position: relative;
+        }
+
+        #inputInfos {
+            text-align: center;
+            overflow: hidden;
+            border-radius: 20px;
+            width: 400px;
+            height: 300px;
+            background-color: #fff;
+        }
+        #inputInfos>div{
+            margin: 30px auto;
+            font-size: 20px;
+            font-family: 宋体;
+            font-weight: 600;
+        }
+        #inputInfos input{
+            width: 250px;
+            height: 25px;
+        }
+        #inputInfos button{
+            width: 60px;
+            height: 30px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-left: 30px;
+            background-color: rgba(157,178,66,0.6);
+            box-shadow: none;
+            border: none;
+        }
+        #inputInfos button:hover{
+            cursor:hand;
+            background-color: rgba(157,178,66,0.8);
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="showMessage" id="messagePrompt">
+    <form id="inputInfos" method="post">
+        <div>
+            <span>姓名:</span>
+            <input type="text" name="stuName"/>
+        </div>
+        <div>
+            <span>学号:</span>
+            <input type="text" name="stuNum"/>
+        </div>
+        <div>
+            <span>专业:</span>
+            <input type="text" name="stuMajor"/>
+        </div>
+        <div class="btn_group">
+            <button type="submit" id="submit">提交</button>
+            <button id="cancel">取消</button>
+        </div>
+    </form>
+
+</div>
+<script>
+    var prompt = document.getElementById("messagePrompt");
+    var clientWidth = document.documentElement.clientWidth;
+    var clientHeight = document.documentElement.clientHeight;
+    prompt.style.width = clientWidth + "px";
+    prompt.style.height = clientHeight + "px";
+    var inputInfos = document.getElementById("inputInfos");
+    var inputWidth = inputInfos.clientWidth;
+    var inputHeight = inputInfos.clientHeight;
+    inputInfos.style.marginTop = (clientHeight - inputHeight) / 2 + "px";
+    inputInfos.style.marginLeft = (clientWidth - inputWidth) / 2 + "px";
+</script>
+</body>
+</html>

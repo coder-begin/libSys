@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图书管理系统</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.jpg"/>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div class="login_header">
+        <img src="img/login_header.png" alt="图书标题">
+    </div>
+    <div class="login_body">
+        <form action="php/login.php" method="post">
+            <div>
+                <div class="user_name">
+                    <span>用户名:</span>
+                    <input type="text" placeholder="用户名..." name="username">
+                </div>
+                <div class="user_pass">
+                    <span>密&nbsp;&nbsp;码:</span>
+                    <input type="password" placeholder="密码..." name="passwords">
+                </div>
+            </div>
+            <div class="login_btn">
+                <button class="btn_ok" type="submit">确定</button>
+                <button class="btn_quit" id="btnQuit">取消</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

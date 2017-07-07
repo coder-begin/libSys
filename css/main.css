@@ -1,0 +1,59 @@
+
+.container {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+
+}
+
+.container_header {
+    background: url("../img/gb_header.png");
+    width: 800px;
+    height: 83px;
+}
+
+.info {
+    width: 800px;
+    height: 40px;
+    background-color:#D5D9C4;
+
+}
+
+.info img {
+    width: 38px;
+    height: 38px;
+    float: left;
+}
+
+.info p {
+    float: left;
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: "楷体";
+}
+
+.userDiv {
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.spanDiv {
+    margin-top: 4px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-family: "楷体";
+    font-weight: 800;
+    background-color: skyblue;
+}
+iframe{
+    width:800px;
+    height:470px;
+    margin-top: -5px;
+}
+
+

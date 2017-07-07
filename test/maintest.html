@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<h1>
+    主界面
+    <button onclick="updata()">测试</button>
+
+</h1>
+<script>
+    function updata(){
+            alert("sss");
+    }
+</script>
+<!--
+<script>
+    document.cookie = "username=rulersex";
+    var cookie = document.cookie.toString();
+    var sessionIdStart = cookie.indexOf("PHPSESSID"),
+            sessionIdEnd = cookie.indexOf(";", sessionIdStart),
+            sessionId;
+    if(sessionIdEnd==-1){
+        sessionId=cookie.substr(sessionIdStart);
+    }
+    else{
+        sessionId=cookie.substr(sessionIdStart,sessionIdEnd);
+    }
+    var id=sessionId.split("=")[1];
+    $.get("test.php", { id: id},function(data){
+        if(data){
+            alert("已经登陆");
+        }else{
+            window.location.href="logintest.html";
+        }
+    });
+
+
+
+
+</script>-->
+</body>
+</html>

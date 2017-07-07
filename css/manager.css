@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container_body {
+    width: 800px;
+    height: 477px;
+    background-color: #BDC891;
+}
+
+.container_body_left {
+    float: left;
+    width: 140px;
+    height: 477px;
+    border-right: 6px solid blue;
+    padding: 0 3px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container_body_left > div {
+    width: 140px;
+    height: 100%;
+    padding: 10px 5px;
+}
+
+.info_btn {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 50px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.info_btn > div:hover {
+    background-color: skyblue !important;
+}
+
+.info_btn > div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.info_btn img {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.info_btn p {
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    background: none;
+    outline-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: skyblue !important;
+}
+
+.container_body_right {
+    float: right;
+    width: 660px;
+    height: 470px;
+    background-color: #999;
+
+}
+.userManage{
+
+    /*display: none;*/
+    width: 660px;
+    height: 470px;
+    text-align: center;
+}
+.bookManage{
+    display: none;
+    width: 660px;
+    height: 470px;
+    text-align: center;
+}
+.search {
+    margin-top: 30px;
+}
+.search > input {
+    width: 450px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.search > button {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.bookInfo ul{
+    width: 450px;
+    margin-left: 57px;
+}
+.bookInfo li{
+    font-weight: 600;
+    margin-left: -5px;
+    border: 1px solid #000;
+    width: 148px;
+    display: inline-block;
+}
+.stuInfo >ul{
+    width: 450px;
+    margin-left: 57px ;
+}
+.stuInfo li{
+    font-weight: 600;
+    margin-left: -5px;
+    border: 1px solid #000;
+    width: 148px;
+    display: inline-block;
+}
+
+.booksList{
+    margin-left: 51px ;
+    width: 565px;
+    height: 180px;
+    background-color: #67b168;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.booksList>li{
+    border: 1px solid #000;
+    margin-right: -5px;
+    width: 180px;
+    display: inline-block;
+}
+.tb_userinfos,.tb_bookinfos{
+    margin-left: 55px;
+}
+
+.tb_userinfos td{
+    border: 1px solid #000;
+    width: 148px;
+}
+.tb_userinfos td:last-child{
+    border: none;
+
+}
+.tb_userinfos td:last-child>button{
+    margin-left: 8px;
+    height: 22px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #ffff00;
+}
+.tb_bookinfos td{
+    border: 1px solid #000;
+    width: 148px;
+}
+.tb_bookinfos td:last-child{
+   border: none;
+
+}
+.tb_bookinfos td:last-child>button{
+    margin-left: 8px;
+    height: 22px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #ffff00;
+}
+
+#addStu,#addBook{
+    margin: 10px 0;
+    background-color: #fff;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.showMessage {
+    width: 800px;
+    height: 500px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.inputInfos {
+    margin-left: 200px;
+    margin-top: 100px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+}
+.inputInfos>div{
+    margin: 30px auto;
+    font-size: 20px;
+    font-family: 宋体;
+    font-weight: 600;
+}
+.inputInfos input{
+    width: 250px;
+    height: 25px;
+}
+.inputInfos button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;   margin-left: 30px;
+    background-color: rgba(157,178,66,0.6);
+    box-shadow: none;
+    border: none;
+}
+.inputInfos button:hover{
+    cursor:hand;
+    background-color: rgba(157,178,66,0.8);
+}
+.changeStuInfos{
+    display: none;
+    border-radius: 20px;
+    margin-left:110px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    background-color:#3c763d;
+    z-index: 10;
+    position: absolute;
+}
+.changeBookInfos{
+    display: none;
+    border-radius: 20px;
+    margin-left:110px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    background-color:#3c763d;
+    z-index: 11;
+    position: absolute;
+}
+.changeList{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+
+}
+.changeList>li{
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+.changeList span{
+    font-weight: 600;
+    font-family: "楷体";
+    font-size: 20px;
+}
+.changeList span{
+    margin:0 11px 0 29px;
+}
+.changeList button{
+    width: 80px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+.changeList input{
+    text-align: center;
+    vertical-align:top;
+    width: 200px;
+    height: 22px;
+    border: none;
+}
+
